@@ -165,6 +165,21 @@ nav {
   text-decoration: none;
 }
 
+.social-media li a:focus {
+  outline: none;
+  color: var(--verde);
+}
+
+.social-media li:focus-within {
+  outline: 3px solid var(--verde);
+  padding: 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
 .social-link-text {
   padding-left: 8px;
   padding-right: 8px;
@@ -178,7 +193,8 @@ nav {
 
 .window {
   overflow: hidden;
-  width: 805px;
+  width: 815px;
+  padding: 12px;
 }
 
 .project-container {
